@@ -62,16 +62,16 @@ const Home = () => {
 
 
 
-      <section class="flex w-[100%] h-[540px] mt-6  relative top-0">
-        <div class=" w-[50%] relative p-6">
-          <h1 class="mx-10 font-bold text-[20px] absolute top-16 lg:text-[35px] ">
+      <section class="flex w-[100%] h-[540px] mt-6  relative ">
+        <div class="mx-auto lg:w-[50%] relative p-6">
+          <h1 class="mx-10 font-bold text-[20px] lg:text-[35px] ">
             Get world class <br /> courses from world class mentors
           </h1>
-          <p class="mx-10 text-[10px] absolute top-[200px] lg:text-[20px] ">
+          <p class="mx-10 text-[10px] lg:text-[20px] ">
             Get quality courses with us with the best price. Now you can get the
             best course from us. we have top mentors in Hub
           </p>
-          <div class="mx-10 absolute top-[280px] flex items-center">
+          <div class="mx-10 my-10 flex items-center">
             <Link
               class=" p-3 bg-blue-900 text-white rounded-xl"
               to="/stafflogin"
@@ -85,7 +85,7 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className='w-[50%]'>
+        <div className='w-[0%] lg:w-[50%]'>
           <img src={Ehz1}/>
         </div>
       </section>
@@ -95,7 +95,7 @@ const Home = () => {
 
 
 
-      <section class="m-10 p-6 ">
+      <section class=" p-6 ">
         <h1 class="mx-auto flex font-bold text-3xl justify-center text-blue-700">
           Our popular courses
         </h1>
