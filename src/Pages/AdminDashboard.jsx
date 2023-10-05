@@ -18,7 +18,7 @@ const AdminDashboard = () => {
   return (
     <div className="overflow-hidden">
      <NavLoggedIn/>
-      <section className="flex justify-center mx-[100px] my-[30px] rounded-xl">
+      <section className="flex justify-center mx-[100px] my-[100px] rounded-xl">
           <div className="w-full h-screen flex">
 
            {/* left side navigation  */}

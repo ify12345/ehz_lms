@@ -22,8 +22,8 @@ const TutorDashboard = () => {
 
         <div className="flex h-screen w-full">
         <div className="w-3/12 border-r-2 rounded-l-xl bg-[#09355F]">
-          <div className="flex flex-col px-4 py-[100px] flex-shrink-0 text-white font-bold gap-y-6">
-            <button onClick={viewStudents} className={`p-3 bg-slate-50 text-black rounded-xl ${display === "viewstudents" ? "bg-gray-500 rounded-lg text-white":""}`}>
+          <div className="flex flex-col px-4 py-[100px] flex-shrink-0 font-bold gap-y-6">
+            <button onClick={viewStudents} className={`p-3 text-white font-extrabold text-4xl rounded-xl ${display === "viewstudents" ? " rounded-lg ":""}`}>
                All Students
             </button>
             {/* DROP DOWN FOR ALL CATEGORIES OF STUDENTS */}
@@ -33,10 +33,10 @@ const TutorDashboard = () => {
               </div>
             )}
 
-            <button onClick={curriculum} className={`p-3 bg-slate-50 text-black rounded-xl ${display === "curriculum" ? "bg-gray-500 rounded-lg text-white":""}`}>
+            <button onClick={curriculum} className={`p-3 bg-slate-50 text-black rounded-xl ${display === "curriculum" ? " rounded-lg ":""}`}>
                Create Curriculum
             </button>
-            <button onClick={test} className={`p-3 bg-slate-50 text-black rounded-xl ${display === "test" ? "bg-gray-500 rounded-lg text-white":""}`}>
+            <button onClick={test} className={`p-3 bg-slate-50 text-black rounded-xl ${display === "test" ? "rounded-lg ":""}`}>
                Create Test Questions
             </button>
          
